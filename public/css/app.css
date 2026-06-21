@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+header {
+    background: #0c4a6e;
+    color: white;
+}
+
+a {
+    color: #e0f2fe;
+    text-decoration: none;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.card {
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    padding: 1.75rem;
+}
+
+.btn-blue {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1.4rem;
+    border-radius: 9999px;
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.badge-pending {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 0.4rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+}
+
+.badge-approved {
+    background: #dcfce7;
+    color: #166534;
+    padding: 0.4rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+}
+
+.badge-rejected {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 0.4rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.table th {
+    text-align: left;
+    font-weight: 600;
+    color: #334155;
+}
+
+.table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #334155;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.9rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 1rem;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+.form-grid {
+    display: grid;
+    gap: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+    .form-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem;
+    }
+}
