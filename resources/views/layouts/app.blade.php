@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ $title ?? config('app.name') }}</title>
         
-        <!-- UKURASA MPYA WA UREMBOWETU (TAILWIND CDN) -->
         <script src="https://cdn.tailwindcss.com"></script>
+        
+        <link rel="stylesheet" href="{{ asset('css/modern.css') }}">
         
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2H0k0a2gF2b8s6O8gqj6QbYk5Q5T1m0w3pJTn8M=" crossorigin="" />
