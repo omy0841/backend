@@ -7,7 +7,7 @@
         
         <script src="https://cdn.tailwindcss.com"></script>
         
-        <link rel="stylesheet" href="{{ asset('css/modern.css') }}">
+        <link rel="stylesheet" href="/css/modern.css">
         
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2H0k0a2gF2b8s6O8gqj6QbYk5Q5T1m0w3pJTn8M=" crossorigin="" />
@@ -78,7 +78,7 @@
             </div>
         </footer>
 
-        <script src="{{ asset('js/app.js') }}?v=3"></script>
+        <script src="/js/app.js?v=3"></script>
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8kGQ6s3G1b6b1k4y1QvWQ2sB9d7vZ8+3G4Hh2I=" crossorigin=""></script>
     </body>
 </html>
